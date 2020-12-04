@@ -7,6 +7,10 @@ const bodyParser = require('body-parser');
 
 const productsRouter = require('./routes/products');
 
+//settings de express
+
+app.set('json spaces', 4);
+
 //configurando middlewares
 
 app.use(morgan('tiny')); //activando morgan en formato 'tiny'
