@@ -1,3 +1,5 @@
+'use strict'
+
 const { products } = require('../db.json');
 
 const regex = /^[a-z]{2,20}$/;
